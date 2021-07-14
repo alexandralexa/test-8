@@ -9,9 +9,14 @@
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <title>Document</title>
     <style>
+body{
+    background-color: grey;
+}
+
         .form-title {
             margin-top: 15px;
             margin-bottom: 15px;
+            font-size: 1.5em;
         }
 
         .form-alt {
@@ -21,12 +26,20 @@
         }
 
         .btn-round {
-
-            border-radius: 25px;
+border-radius: 25px;
         }
 
         .btn-social {
             width: 40px;
+        }
+
+        .btn-login {
+            background-color: cadetblue;
+            color: white;
+        }
+
+        .button-social {
+            margin-bottom: 15px;
         }
     </style>
 </head>
@@ -55,9 +68,11 @@
                                             placeholder=" Your password">
                                     </div>
                                     <div class="text-center">
-                                        <button type="submit" class="btn btn-primary btn-block btn-round">Login</button>
+                                        <button type="submit" class="btn btn-login btn-block btn-round">Login</button>
+
+
                                         <div class="form-alt">or use social network</div>
-                                        <div>
+                                        <div class="button-social">
                                             <button class="btn btn-secondary btn-round btn-social"><i
                                                     class="fab fa-twitter"></i></button>
                                             <button class="btn btn-secondary btn-round btn-social"><i
@@ -65,7 +80,10 @@
                                             <button class="btn btn-secondary btn-round btn-social"><i
                                                     class="fab fa-linkedin-in"></i></button>
                                         </div>
-                                        <div> <a href=""> Sign up</a></div>
+                                        <div class="modal-footer">
+                                            <div> <a href=""> Sign up</a></div>
+                                        </div>
+
                                     </div>
                                 </form>
 
