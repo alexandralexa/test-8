@@ -9,19 +9,25 @@
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <title>Document</title>
     <style>
-        .form title{
-
+        .form-title {
+            margin-top: 15px;
+            margin-bottom: 15px;
         }
 
-        .btn-round{
+        .form-alt {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            color: grey;
+        }
+
+        .btn-round {
 
             border-radius: 25px;
         }
 
-        .btn-social{
+        .btn-social {
             width: 40px;
         }
-
     </style>
 </head>
 
@@ -36,8 +42,8 @@
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
-                                <div class="text-center" >Login</div>
-                                <form>
+                                <div class="text-center">Login</div>
+                                <form class="form-title">
                                     <div class="form-group">
 
                                         <input type="email" class="form-control" id="exampleInputEmail1"
@@ -50,11 +56,14 @@
                                     </div>
                                     <div class="text-center">
                                         <button type="submit" class="btn btn-primary btn-block btn-round">Login</button>
-                                        <div>or use social network</div>
+                                        <div class="form-alt">or use social network</div>
                                         <div>
-                                          <button class="btn btn-secondary btn-round btn-social"><i class="fab fa-twitter"></i></button>
-                                          <button class="btn btn-secondary btn-round btn-social"><i class="fab fa-facebook-f"></i></button>
-                                          <button class="btn btn-secondary btn-round btn-social"><i class="fab fa-linkedin-in"></i></button>
+                                            <button class="btn btn-secondary btn-round btn-social"><i
+                                                    class="fab fa-twitter"></i></button>
+                                            <button class="btn btn-secondary btn-round btn-social"><i
+                                                    class="fab fa-facebook-f"></i></button>
+                                            <button class="btn btn-secondary btn-round btn-social"><i
+                                                    class="fab fa-linkedin-in"></i></button>
                                         </div>
                                         <div> <a href=""> Sign up</a></div>
                                     </div>
